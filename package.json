@@ -1,0 +1,31 @@
+{
+  "name": "contect-management-be",
+  "version": "1.0.0",
+  "description": "this is backend servver of contec management application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamabhishekmaurya/contect-management-be.git"
+  },
+  "author": "Abhishek Maurya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamabhishekmaurya/contect-management-be/issues"
+  },
+  "homepage": "https://github.com/iamabhishekmaurya/contect-management-be#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "sequelize": "^6.30.0",
+    "sequelize-cli": "^6.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
